@@ -8,6 +8,6 @@ This project implements a **Mealy Finite State Machine (FSM)** that detects the 
 - **Overlap**: Allowed (the FSM can detect sequences that share bits with the previous match)  
 - **Reset**: **Synchronous, active-high**  
 - **Output (y)**: Generates a **1-cycle pulse** when the final `1` of the sequence arrives.  
--**din** (input given in tb): 11011011101
--**y** (expected outcome): 00010010001
+- **din** (input given in tb): 11011011101
+- **y** (expected outcome): 00010010001
 
